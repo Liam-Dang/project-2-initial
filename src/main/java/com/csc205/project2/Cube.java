@@ -37,5 +37,6 @@ public class Cube extends Shape {
         sb.append('}');
         return sb.toString();
     }
+
 }
 

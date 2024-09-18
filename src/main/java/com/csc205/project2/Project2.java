@@ -43,6 +43,5 @@ public class Project2 {
         System.out.println(rectangularPrism);
 
     }
-
 }
 

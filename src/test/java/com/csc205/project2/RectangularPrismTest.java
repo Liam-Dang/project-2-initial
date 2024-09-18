@@ -50,4 +50,5 @@ public class RectangularPrismTest {
         String expected = "Rectangular Prism {length=2.0, width=3.0, height=4.0, surface area=52.0, volume=24.0}";
         assertEquals(expected, rp.toString());
     }
+
 }

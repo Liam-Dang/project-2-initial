@@ -5,5 +5,4 @@ public interface ThreeDimensionalShape {
 
    public double surfaceArea();
    public double volume();
-
 }

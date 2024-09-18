@@ -1,6 +1,7 @@
 package com.csc205.project2;
 
-public class RectangularPrism extends Shape{
+public class RectangularPrism extends Shape {
+
 
     private double length;
     private double width;
@@ -14,6 +15,7 @@ public class RectangularPrism extends Shape{
     }
 
     public RectangularPrism(double length, double width, double height) {
+        super();
         this.length = length;
         this.width = width;
         this.height = height;
@@ -53,13 +55,12 @@ public class RectangularPrism extends Shape{
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("Rectangular Prism {");
+        final StringBuilder sb = new StringBuilder("RectangularPrism {");
         sb.append("length=").append(length);
         sb.append(", width=").append(width);
         sb.append(", height=").append(height);
         sb.append(", surface area=").append(surfaceArea());
         sb.append(", volume=").append(volume());
-        sb.append('}');
         return sb.toString();
     }
 }

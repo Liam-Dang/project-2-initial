@@ -42,4 +42,5 @@ public class CubeTest {
         String expected = "Cube {width=5.0, surface area=150.0, volume=125.0}";
         assertEquals(expected, cube.toString());
     }
+
 }

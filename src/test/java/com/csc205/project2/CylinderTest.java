@@ -51,4 +51,5 @@ public class CylinderTest {
         String expected = "Cylinder {height=4.0, radius=1.0, surface area=31.41592653589793, volume=12.566370614359172}";
         assertEquals(expected, cylinder.toString());
     }
+
 }
