@@ -49,7 +49,7 @@ public class RectangularPrismTest {
     @Test
     public void testToString() {
         RectangularPrism rp = new RectangularPrism(2.0, 3.0, 4.0);
-        String expected = "Rectangular Prism {length=2.0, width=3.0, height=4.0, surface area=52.0, volume=24.0}";
+        String expected = "RectangularPrism {length=2.0, width=3.0, height=4.0, surface area=52.0, volume=24.0}";
         assertEquals(expected, rp.toString());
     }
 
