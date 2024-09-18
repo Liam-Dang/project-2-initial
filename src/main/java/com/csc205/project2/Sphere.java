@@ -1,6 +1,6 @@
 package com.csc205.project2;
 
-public class Sphere {
+public class Sphere extends Shape {
 
     private double radius;
 
@@ -14,7 +14,7 @@ public class Sphere {
         this.radius = v;
     }
 
-    public double getRadius() {
+    public double getRadius () {
         return radius;
     }
 
