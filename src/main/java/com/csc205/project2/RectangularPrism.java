@@ -61,6 +61,7 @@ public class RectangularPrism extends Shape {
         sb.append(", height=").append(height);
         sb.append(", surface area=").append(surfaceArea());
         sb.append(", volume=").append(volume());
+        sb.append('}');
         return sb.toString();
     }
 }
