@@ -3,6 +3,6 @@ package com.csc205.project2;
 
 public interface ThreeDimensionalShape {
 
-   public double surfaceArea();
-   public double volume();
+   public abstract double surfaceArea();
+   public abstract double volume();
 }
